@@ -1,0 +1,104 @@
+* {
+    border: 0px solid black;
+    font-family: 'Open Sans', sans-serif;
+}
+ul {
+    /*this is standard navigation bar code for all vertical and horizontal
+    navigation menus */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*end standard navigation code */
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    padding: 12px;
+    background-color: white;
+    text-decoration: none;
+    color: SlateGray;
+}
+li a:hover {
+    background-color: CornFlowerBlue;
+    transition: background-color 0.5s;
+    color: white;
+}
+#phoneIcon {
+    max-width: 12px;
+    max-height: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+#headBar {
+    display: flex;
+    background-color: CornFlowerBlue;
+    color: White;
+}
+#mainLogo {
+    max-height: 100px;
+    max-width: 150px;
+    margin-top: 25px;
+}
+#mainMenu {
+    max-height: 100px;
+    display: flex;
+}
+#navMenu {
+    display: inline;
+    color: SlateGray;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.socialIcons {
+    margin-top: 10px;
+    float: right;
+    padding-top: 5px;
+    padding-left: 1px;
+    padding-right: 5px;
+}
+.row {
+    width: 100%;
+    display: flex;
+    padding: 5px;
+}
+.col-1 {
+    width: 8.333%;
+}
+.col-2 {
+    width: 16.667%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.333%;
+}
+.col-5 {
+    width: 41.667%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.333%;
+}
+.col-8 {
+    width: 66.667%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.333%;
+}
+.col-11 {
+    width: 91.667%;
+}
+.col-12 {
+    width: 100%;
+}
+
+
+/*test area below */
